@@ -1,5 +1,10 @@
+html, body {
+    height: 100%;
+}
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
     background-color: #f4f6f8;
     color: #333;
 }
@@ -26,6 +31,10 @@ body {
     color: #fff;
 }
 
+main{
+    flex: 1;
+}
+
 section {
     background-color: #ffffff;
     border-radius: 10px;
@@ -36,7 +45,7 @@ section h2 {
 }
 
 footer {
-    font-size: 0.9em;
+    font-size: 1em;
     background-color: cornflowerblue;
 }
 
